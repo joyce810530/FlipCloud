@@ -1,0 +1,73 @@
+/*舊的fuck1(4 icons)
+/*fuck1區域*/
+.fuck1{
+	padding-top:0px!important;
+	padding-bottom:0px!important;
+	margin-top:46px!important;
+	margin-bottom:80px!important;
+}
+
+/*fuck1主標*/
+.fuck1 .fusion-text h3{
+	margin-top:30px!important;
+	font-weight:400 !important;
+}
+
+/*fuck1大標*/
+.fuck1 .fusion-title p{
+	margin-top:0px!important;
+	margin-bottom:30px!important;
+	color:#333333!important;
+font-size:24px!important;
+}
+
+/*fuck1段落*/
+.fuck1 .fusion-text p{
+	margin-top:16px!important;
+	margin-right:15px!important;
+	margin-left:15px!important;
+	margin-bottom:0px!important;
+	font-size:16px!important;
+	line-height:26px!important;
+	color:#999999!important;
+}
+
+/*fuck1圖片落差不能刪*/
+.hentry .fusion_builder_column .imageframe-align-center{
+	margin-top:0px!important;
+}
+
+/*fuck1圖片
+.fuck1 img{
+	height:140px!important;
+	margin-top:0px!important;
+	margin-bottom:0px!important;
+}
+
+
+.hentry .imageframe-1 img{
+	border-radius:20px;
+	height:230px !important;
+}
+
+.hentry .imageframe-2 img{
+	height:230px !important;
+	border-radius:20px;
+}
+
+.hentry .imageframe-3 img{
+	height:230px !important;
+	border-radius:20px;
+}
+
+.hentry .imageframe-4 img{
+	height:230px !important;
+	border-radius:20px;
+}
+
+.fuck1 .fusion-text h4{
+	margin-top:0px;
+margin-bottom:0px;
+}
+
+*/
