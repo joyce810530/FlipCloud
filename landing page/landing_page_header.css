@@ -1,171 +1,296 @@
-.headerImg .bigImg{
+.headerTitle{
 	position:relative;
+	bottom:190px;
+	right:50px;
+	text-align:right;
+ 	line-height: 48px;
+ 	text-shadow: 0.1em 0.1em 0.6em #0a0a45
 }
 
-.headerImg .smallImg1{
-	position:absolute;
-	width:10%;
-	left:20%;
-	top:54%;
+.headerImg {
+    background-image: url('https://s3-ap-southeast-1.amazonaws.com/flipcloud/tw/wp-content/uploads/2018/09/11170640/cover01.png');
+    background-repeat:no-repeat;
+    background-size: contain;
+    overflow-y: hidden;
+    white-space: nowrap;
+    position: relative;
+    width: 100%;
 }
 
-.headerImg .smallImg2{
-	position:absolute;
-	width:15%;
-	left:27%;
-	top:54%;
-}
-
-.headerImg .smallImg3{
-	position:absolute;
-	width:22%;
-	left:34%;
-	top:44%;
-}
-
-.headerImg .smallImg4{
-	position:absolute;
-	width:16%;
-	left:47%;
-	top:32%;
-}
-
-.headerImg .smallImg5{
-	position:absolute;
-	width:16%;
-	left:57%;
-	top:8%;
-}
-
-.headerImg .smallImg6{
-	position:absolute;
-	width:14%;
-	left:66%;
-	top:29%;
-}
-
-.headerImg .smallImg7{
-	position:absolute;
-	width:12%;
-	left:70%;
-	top:12%;
-	z-index: 2;
-}
-
-.headerImg .smallImg8{
-	position:absolute;
-	width:16%;
-	left:77%;
-	top:5%;
-	z-index: 1;
-}
-
-
-.headerImg .smallImg1:hover,.headerImg .smallImg2:hover,.headerImg .smallImg3:hover,.headerImg .smallImg4:hover,.headerImg .smallImg5:hover,.headerImg .smallImg6:hover,.headerImg .smallImg7:hover,.headerImg .smallImg8:hover{
-	position: absolute;
-	-webkit-transition: all .3s;
-	-webkit-animation: bounce 1s;
-	animation: bounce 1s;
-}
-
-
-
-@keyframes bounce {
-  from,
-  20%,
-  53%,
-  80%,
-  to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-
-  40%,
-  43% {
-    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    -webkit-transform: translate3d(0, -30px, 0);
-    transform: translate3d(0, -30px, 0);
-  }
-
-  70% {
-    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    -webkit-transform: translate3d(0, -15px, 0);
-    transform: translate3d(0, -15px, 0);
-  }
-
-  90% {
-    -webkit-transform: translate3d(0, -4px, 0);
-    transform: translate3d(0, -4px, 0);
-  }
-}
-
-.bounce {
-  -webkit-animation-name: bounce;
-  animation-name: bounce;
-  -webkit-transform-origin: center bottom;
-  transform-origin: center bottom;
-}
-
-
-
-.nofuck .bigtitle p{
-	color:#ffffff;
-	margin-top:0px;
-	margin-bottom:0px;
-	font-size:30px !important;
-	font-weight:400;
-}
-
-.nofuck .smalltitle p{
-	color:#ffffff;
-	margin-top:0px;
-	margin-bottom:0px;
-	font-size:16px !important;
-	font-weight:300;
-	font-style:italic;
-}
-
-
-.nofuck .level-img00{
-    max-height:100%;
+.whaleImg{
+    width: 100%;
     position:absolute;
+    -webkit-transition: all .3s;
+    -webkit-animation: breathing 7s infinite;
+    animation: breathing 7s infinite;
+}
+.teacherImg{
+    width: 100%;
+    position:relative;
 }
 
-.nofuck .level-img01{
-    width:auto;
-    height:10%;
-    position:absolute;
-    left:100px;
+/*
+.learnerImg{
+    width: 100%;
+    -webkit-transition: all .3s;
+	-webkit-animation: breathing 3s infinite;
+	animation: breathing 3s infinite;
 }
+*/
+
+
+@-webkit-keyframes breathing {
+    0% {
+
+      transform: translate3d(0, 0px, 0);
+    }
+
+
+    65% {
+
+      transform: translate3d(0, 30px, 0);
+    }
+
+    100% {
+
+      transform: translate3d(0, 0px, 0);
+    }
+  }
+
+  @keyframes breathing {
+    0% {
+
+
+      transform: translate3d(0, 0px, 0);
+    }
+
+
+    65% {
+
+      transform: translate3d(0, -30px, 0);
+    }
+
+    100% {
+
+      transform: translate3d(0, 0px, 0);
+    }
+  }
 
 
 
 
 
 /*主視覺標題*/
-.thefuck p span{
+.nofuck p span{
 	font-weight: 400 !important;
  	text-shadow: 0.1em 0.1em 0.6em black
 }
 
-/*滿版*/
-#content .hentry .post-content{
-	padding-left:0px !important;
-	padding-right:0px !important;
-	margin-top:0px;
+
+/*教學影片標題*/
+#slide-11-layer-3{
+	font-family:Noto Sans TC, sans-serif !important;
+	font-size:40px!important;
+        line-height:52px!important;
+	text-align:center!important;
+        letter-spacing:1px!important;
+	width:120%!important;
+	min-width:120%!important;
+ 	text-shadow: 0.1em 0.1em 0.6em black
 }
-#main .post-content .fuck1{
+
+/*教學影片button*/
+#slide-11-layer-6{
+	font-family:Noto Sans TC, sans-serif !important;
+	font-weight:300 !important;
+	background-color:#23b6bc !important;	
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.20)!important;
+
+
+
+}
+
+#slide-11-layer-6:hover{
+	font-family:Noto Sans TC, sans-serif !important;
+	color:#23b6bc !important;	
+	background-color:#fff !important;	
+}
+
+/*fuck2區域*/
+.fuck2{
+	margin-top:80px!important;
+	margin-bottom:80px!important;
+}
+
+/*fuck2大標*/
+.fuck2 .fusion-text h3{
+	margin-top:50px!important;
+	margin-bottom:0px!important;
+	font-size:33px !important;
+}
+
+/*fuck2段落*/
+.fuck2 .fusion-text p{
+	margin-top:12px!important;
+	margin-bottom:0px!important;
+	margin-right:50px;
+	font-size:18px !important;
+	line-height:30px;
+	font-weight:300;
+}
+
+/*fuck2 botton*/
+.fuck2 .fusion_builder_column .button-1,.fuck2 .fusion_builder_column .button-2{
+	margin-top:40px;
+	font-size:20px;
+	padding-top:15px;
+	padding-bottom:15px;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.20)!important;
+	border:0px;
+}
+.fuck2 .button-1 span,.fuck2 .button-2 span{
+	font-family: Noto Sans TC, sans-serif;
+	font-weight:300;
+}
+
+/*fuck2圖片*/
+.fuck2 .imageframe-4 img{
+	margin-top:0px!important;
+	margin-bottom:0px!important;
+	padding-top:0px !important;
+	padding-bottom:0px !important;
+}
+
+.fuck2 .imageframe-5 img{
+	margin-top:0px!important;
+	margin-bottom:0px!important;
+	padding-top:0px !important;
+	padding-bottom:0px !important;
+}
+
+.fuck2 .imageframe-1 img, .hentry .imageframe-2 img, .hentry .imageframe-3 img{
+	height:180px !important;
+}
+
+
+
+/*fuck4優良師資推薦*/
+#fusion-scroll-section-element-1-1.fuck4{
+	height:60% !important;
+	background-color:#f3f5f9!important;
+}
+
+/*fuck4主標*/
+.fuck4 .fusion-fullwidth-center-content .fusion-title p{
+	margin-top:76px!important;
+	font-weight:400!important;
+	font-size:33px!important;
+}
+
+/*fuck4描述*/
+.fuck4 .fusion-fullwidth-center-content .fusion-text p{
+	margin-top:10px!important;
+	margin-bottom:30px!important;
+	font-size:18px!important;
+}
+
+/*fuck4圖片框框*/
+.fuck4 .tg-grid-holder div{
+	border-style:solid;
+	border-width:0.5px;
+	border-color:rgba(0,0,0,0.0) !important;
+	border-top-left-radius:6px!important;
+	border-top-right-radius:6px!important;
+	border-bottom-right-radius:6px!important;
+	border-bottom-left-radius:6px!important;
+}
+
+.fuck4 .tg-grid-slider .tg-item .tg-item-media-content{
+	box-shadow: 0.1em 0.1em 0.3em rgba(3,27,78,.08);
+	margin-bottom:0px !important;
+}
+
+#grid-1058{
+	margin-bottom:84px!important;
+}
+
+
+/*fuck5主標*/
+.fuck5 .title-heading-left p{
+	margin-top:76px!important;
+	font-weight:400 !important;
+}
+
+/*fuck5描述*/
+.fuck5 .fusion-text p{
+	margin-top:10px!important;
+	margin-bottom:32px!important;
+        font-weight:300!important;
+}
+
+/*fuck5專題日期*/
+.fuck5 .tg-item .tg-item-date{
+    margin-top:0px!important;
+    color:#bcbcbc!important;
+}
+
+/*fuck5專題大標*/
+.fuck5 .tg-item h2{
+	padding-top:0px!important;
+	font-size:24px!important;
+	font-weight:400!important;
+color:#23b6bc!important;
+}
+
+/*fuck5專題內文*/
+.fuck5 .tg-item p{
+	margin-top:-10px!important;
+	margin-bottom:0px!important;
+	font-size:16px!important;
+	line-height:26px!important;
+	color:#999999!important;
+}
+
+/*fuck5專題作者*/
+.fuck5 .tg-item-author span{
+	font-weight:300!important;
+	color:#bcbcbc!important;
+	padding-top:-20px!important;
+}
+
+/*fuck5專題方塊*/
+.fuck5 .tg-item .tg-item-content-holder{
+	background-color:#f3f5f9!important;
+}
+
+/*fuck5專題圓角*/
+.hentry .tg-item img.tg-item-image{
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+}	
+
+.fuck5{
+	margin-bottom:34px!important;
+}
+
+
+
+
+
+
+#main .post-content{
+	max-width: 100%;
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+}
+#main .post-content .fuck1,#main .post-content .fuck2,#main .post-content .fuck5,#main .post-content .fuck7,#main .post-content .fuck8{
 	max-width: 100%;
 	padding-left: 250px!important;
 	padding-right: 250px!important;
 }
 @media (max-width:1280px){
 
-	#main .post-content .fuck1{
+	#main .post-content .fuck1,#main .post-content .fuck2,#main .post-content .fuck5,#main .post-content .fuck7,#main .post-content .fuck8{
 		padding-left: 60px!important;
 		padding-right: 60px!important;
 	}
@@ -175,13 +300,113 @@
 
 @media (max-width:1024px){
 
-	#main .post-content .fuck1{
+	#main .post-content .fuck1,#main .post-content .fuck2,#main .post-content .fuck5,#main .post-content .fuck7,#main .post-content .fuck8{
 		padding-left: 15px!important;
 		padding-right: 15px!important;
 	}
 	
 	
 }
+
+
+
+
+
+
+
+
+/*fuck1區域*/
+.fuck1{
+	padding-top:0px!important;
+	padding-bottom:0px!important;
+	margin-top:46px!important;
+	margin-bottom:80px!important;
+}
+
+/*fuck1主標*/
+.fuck1 .title-heading-left p
+	margin-top:0px!important;
+	font-weight:400 !important;
+	font-size:33px!important;
+}
+
+/*fuck1大標*/
+.fuck1 .fusion-title-center p{
+	margin-top:0px!important;
+	margin-bottom:0px!important;
+	color:#333333!important;
+}
+
+/*fuck1段落*/
+.fuck1 .fusion-text p{
+	margin-top:16px!important;
+	margin-right:15px!important;
+	margin-left:15px!important;
+	margin-bottom:0px!important;
+	font-size:16px!important;
+	line-height:26px!important;
+	color:#999999!important;
+}
+
+/*fuck1圖片落差不能刪*/
+.hentry .fusion_builder_column .imageframe-align-center{
+	margin-top:0px!important;
+}
+
+/*fuck1圖片*/
+.hentry .fuck1 img{
+	height:120px!important;
+	margin-top:46px!important;
+	margin-bottom:10px!important;
+}
+
+
+
+/*fuck7學習手冊區域*/
+.fuck7{
+	background-color:#f3f5f9 !important;
+	margin-bottom:0px!important;
+}
+
+/*fuck7主標*/
+.fuck7 .title-heading-left p{
+	margin-top:76px!important;
+	margin-bottom:60px!important;
+	color:#333333!important;
+}
+
+/*fuck7描述-已刪除*/
+.fuck7 .fusion-text .fuckyou p{
+    margin-bottom:30px!important;
+}
+
+/*fuck7方塊*/
+.fuck7 .fucku{
+	margin-bottom:82px !important;
+	position: relative;
+	padding: 32px;
+	border: 1px solid #e5e8ed;
+	border-radius: 20px;
+	background-color: #fff;
+   	box-shadow: 0 2px 4px rgba(3,27,78,.06);
+	transition: box-shadow .25s 
+}
+
+.fuck7 .fucku:hover{	
+    box-shadow: 0 10px 20px rgba(3,27,78,.1);
+}
+
+/*fuck7標題*/
+.fuckp{
+    font-size:24px!important;
+    color:#23b6bc!important;
+}
+/*fuck7 Read More*/
+.fuckr{
+	margin-bottom:0px!important;
+	color:#999999!important;
+}
+
 
 
 
@@ -217,159 +442,34 @@
 	border-bottom-width:5px !important;
 }
 
-/*第二層Tab*/
-.fusion-column-wrapper .horizontal-tabs .tab-content .tab-pane .tg-grid-wrapper .tg-grid-area-top1 .tg-filters-holder .tg-filter span{
-	min-width:130px;
-	height:50px !important;
+
+
+
+.fuck8 .horizontal-tabs .tab-pane h4{
+margin-bottom:0px;
 }
 
-/*第二層Tab字級*/
-.tab-pane .tg-grid-wrapper .tg-grid-area-top1 .tg-filters-holder .tg-filter span{
-	font-size:16px !important;
-	font-weight:400;
+/*first tab-text*/
+.fuck8 .first-section p{
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;
+    line-height: 34px;
+    text-align: justify;
+    
 }
 
-
-/*Level Title*/
-.horizontal-tabs .tab-pane .up{
-	margin-bottom:10px;
-	font-weight: 500!important;
-}
-
-/*Level Content*/
-.horizontal-tabs .tab-pane .down{
-	margin-bottom:40px;
-	color:#999999!important;
-}
-
-/*Tab字級*/
-.post-content h4{
-	font-size:18px!important;
-}
-
-/*Skin背景*/
-.horizontal-tabs .tg-item .tg-item-content-holder{
-	background-color:#f3f5f9 !important;
-}
-
-/*Skin標題*/
-.horizontal-tabs .Read a{
-	font-weight:500;
-	font-size:28px !important;
-	color:#000000 !important;
-}
-
-/*Skin Border Radius*/
-.tg-grid-holder .tg-item .tg-item-content-holder{
-	border-bottom-right-radius:20px;
-	border-bottom-left-radius:20px;
-}
-
-.tg-grid-holder .tg-item .tg-item-inner{
-	border-top-right-radius:20px;
-	border-top-left-radius:20px;
-}
-
-.tg-grid-holder .tg-item .tg-item-overlay{
-	border-top-left-radius:20px;
-	border-top-right-radius:20px;
-}
-
-.tg-grid-holder .tg-item .tg-item-media-content{
-	border-top-left-radius:20px!important;
-	border-top-right-radius:20px!important;
-}
-
-/*Skin的圖片*/
-.tg-item .tg-light div{
-	border-top-left-radius:20px!important;
-	border-top-right-radius:20px!important;
-}
-
-/*tab背景色*/
-.fusion_builder_column .fusion-column-wrapper .horizontal-tabs .nav .nav-justified li .tab-link, #grid-1326 .tg-grid-area-top1{
-background-color:#f3f5f9!important;
-}
-
-/*課程介紹的fuck7方塊*/
-.horizontal-tabs .tab-pane .sabai-entity-bundle-name-questions{
-	margin-bottom:5px !important;
-	position: relative;
-	padding: 32px;
-	border: 1px solid #e5e8ed;
-	border-radius: 20px;
-	background-color: #ffffff;
-	transition: box-shadow .25s!important;
-	z-index: 2;
-	font-size:20px!important;
-}
-
-/*課程介紹的Level*/
-.sabai-questions-questions .sabai-entity-bundle-name-questions .sabai-row{
-	font-weight:300!important;
-	color:#333333;
-}
-
-/*課程介紹的分類標題*/
-.horizontal-tabs .tab-pane .sabai-entity-bundle-name-questions .sabai-row.fuckyi{
-	font-size:20px!important;
-	font-weight:400!important;
-	color:#23b6bc!important;
-}
-
-/*課程介紹的方塊*/
-.horizontal-tabs .tab-pane .sabai-questions-questions{
-	margin-top:30px;
-	margin-bottom:80px;
-}
-
-/*課程介紹的Level文字*/
-.sabai-row{
-	font-size:18px!important;
-	line-height:18px;
-	text-align:center;
+/*first tab-img*/
+.fuck8 .first-section img{
+	padding:0 6%;
 }
 
 
-/*課程介紹的Level1~5*/
-.sabai-questions-questions .sabai-questions-side .sabai-questions-title{
-	position:relative;
-	top:35px;
-}
-
-/*前往課程button*/
-.btn{
-	color:#fff;
-	background-color:#23b6bc;
-	border-radius:20px;
-	font-size:18px;
-	padding-left:10px;
-	padding-right:10px;
-	width:110px;
-}
-
-.btn:hover{
-	color:#23b6bc;
-	background-color:#fff;
-	border-color:#23b6bc;
-	border-size:1px;
-	border-radius:20px;
-	font-size:18px;
-	padding-left:10px;
-	padding-right:10px;
-	width:110px;
-}
-
-/*包住前往課程button*/
-.sabai-questions-title-btn{
-    text-align:center;
-    padding-top:25px;
-}
-
-.horizontal-tabs .tab-pane .sabai-entity-bundle-name-questions .sabai-row.fuckyi {
-    margin-bottom: 20px;
-}
-
-.horizontal-tabs .tab-pane .sabai-entity-bundle-name-questions {
-   padding-bottom: 12px !important;
+/*fuck8主標*/
+.fuck8 .fusion-text p{
+	margin-top:76px!important;
+	font-weight:400 !important;
+	font-size:33px!important;
 }
