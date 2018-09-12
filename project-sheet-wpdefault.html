@@ -1,0 +1,71 @@
+[credform class='cred-form cred-keep-original']
+
+	[cred_field field='form_messages' value='' class='alert alert-warning']
+
+	<div class="form-group">
+		<label>小專題 Title</label>
+		[cred_field field='post_title' value='' urlparam='' class='form-control' output='bootstrap']
+	</div>
+
+	<div class="form-group">
+		<label>小專題 Content</label>
+		[cred_field field='post_content' value='' urlparam='' output='bootstrap']
+	</div>
+
+	<div class="form-group">
+		<label>專題圖片</label>
+		[cred_field field='_featured_image' value='' urlparam='' output='bootstrap']
+	</div>
+
+	<div class="form-group">
+		<label>課時</label>
+		[cred_field field='project-duration' value='' urlparam='' class='form-control' output='bootstrap']
+	</div>
+
+	<div class="form-group">
+		<label>建議學齡</label>
+		[cred_field field='project-suitable-age' value='' urlparam='' class='form-control' output='bootstrap']
+	</div>
+
+	<div class="form-group">
+		<label>所需材料</label>
+		[cred_field field='project-materials' value='' urlparam='' class='form-control' output='bootstrap']
+	</div>
+
+	<div class="form-group">
+		<label>適用機器人</label>
+		[cred_field field='compatible-robot' value='' urlparam='' class='form-control' output='bootstrap']
+	</div>
+
+	<div class="form-group">
+		<label>影片</label>
+		[cred_field field='project-video' value='' urlparam='' class='form-control' output='bootstrap']
+	</div>
+
+	<div class="form-group">
+		<label>課程內容</label>
+		[cred_field field='project-content1' value='' urlparam='' output='bootstrap']
+	</div>
+
+	<div class="form-group">
+		<label>Code</label>
+		[cred_field field='project-code' value='' urlparam='' output='bootstrap']
+	</div>
+
+	<div class="form-group">
+		<label>標籤</label>
+		[cred_field field='post_tag' class='form-control' output='bootstrap']
+		[cred_field field='post_tag_popular' taxonomy='post_tag' type='show_popular']
+	</div>
+
+	<div class="form-group">
+		<label>小專題分類</label>
+		[cred_field field='projects-category' display='select' output='bootstrap']
+	</div>
+
+	[cred_field field='form_submit' value='提交' urlparam='' class='btn btn-primary btn-lg' output='bootstrap']
+
+[/credform]
+
+
+
