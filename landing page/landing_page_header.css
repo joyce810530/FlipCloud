@@ -1,7 +1,7 @@
 .headerTitle{
-	position:relative;
-	bottom:190px;
-	right:50px;
+	position:absolute;
+	bottom:60px;
+	right:60px;
 	text-align:right;
  	line-height: 48px;
  	text-shadow: 0.1em 0.1em 0.6em #0a0a45
@@ -315,50 +315,7 @@ color:#23b6bc!important;
 
 
 
-/*fuck1區域*/
-.fuck1{
-	padding-top:0px!important;
-	padding-bottom:0px!important;
-	margin-top:46px!important;
-	margin-bottom:80px!important;
-}
 
-/*fuck1主標*/
-.fuck1 .title-heading-left p
-	margin-top:0px!important;
-	font-weight:400 !important;
-	font-size:33px!important;
-}
-
-/*fuck1大標*/
-.fuck1 .fusion-title-center p{
-	margin-top:0px!important;
-	margin-bottom:0px!important;
-	color:#333333!important;
-}
-
-/*fuck1段落*/
-.fuck1 .fusion-text p{
-	margin-top:16px!important;
-	margin-right:15px!important;
-	margin-left:15px!important;
-	margin-bottom:0px!important;
-	font-size:16px!important;
-	line-height:26px!important;
-	color:#999999!important;
-}
-
-/*fuck1圖片落差不能刪*/
-.hentry .fusion_builder_column .imageframe-align-center{
-	margin-top:0px!important;
-}
-
-/*fuck1圖片*/
-.hentry .fuck1 img{
-	height:120px!important;
-	margin-top:46px!important;
-	margin-bottom:10px!important;
-}
 
 
 
@@ -443,33 +400,49 @@ color:#23b6bc!important;
 }
 
 
-
-
-.fuck8 .horizontal-tabs .tab-pane h4{
-margin-bottom:0px;
+/*
+fuck1區域
+.fuck1{
+	padding-top:0px!important;
+	padding-bottom:0px!important;
+	margin-top:46px!important;
+	margin-bottom:80px!important;
 }
+*/
 
-/*first tab-text*/
-.fuck8 .first-section p{
-    height: 320px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 10%;
-    line-height: 34px;
-    text-align: justify;
-    
-}
-
-/*first tab-img*/
-.fuck8 .first-section img{
-	padding:0 6%;
-}
-
-
-/*fuck8主標*/
-.fuck8 .fusion-text p{
-	margin-top:76px!important;
+/*fuck1主標*/
+.fuck1 .title-heading-left p{
+	margin-top:60px!important;
 	font-weight:400 !important;
 	font-size:33px!important;
+}
+
+/*fuck1大標*/
+.fuck1 .fusion-title-center p{
+	margin-top:0px!important;
+	margin-bottom:0px!important;
+	color:#333333!important;
+}
+
+/*fuck1段落*/
+.fuck1 .fusion-text p{
+	margin-top:16px!important;
+	margin-right:15px!important;
+	margin-left:15px!important;
+	margin-bottom:0px!important;
+	font-size:16px!important;
+	line-height:26px!important;
+	color:#999999!important;
+}
+
+/*fuck1圖片落差不能刪*/
+.hentry .fusion_builder_column .imageframe-align-center{
+	margin-top:0px!important;
+}
+
+/*fuck1圖片*/
+.hentry .fuck1 img{
+	height:120px!important;
+	margin-top:46px!important;
+	margin-bottom:10px!important;
 }
