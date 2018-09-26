@@ -64,55 +64,44 @@
 .headerImg .smallImg1:hover,.headerImg .smallImg2:hover,.headerImg .smallImg3:hover,.headerImg .smallImg4:hover,.headerImg .smallImg5:hover,.headerImg .smallImg6:hover,.headerImg .smallImg7:hover,.headerImg .smallImg8:hover{
 	position: absolute;
 	-webkit-transition: all .3s;
-	-webkit-animation: bounce 1s;
-	animation: bounce 1s;
+	-webkit-animation: breathing 3s;
+	animation: breathing 3s;
 }
 
+@-webkit-keyframes breathing {
+    0% {
+
+      transform: translate3d(0, 0px, 0);
+    }
 
 
-.headerImg .allImg .smallImg1:hover,.headerImg .allImg .smallImg2:hover,.headerImg .allImg .smallImg3:hover,.headerImg .allImg .smallImg4:hover,.headerImg .allImg .smallImg5:hover,.headerImg .allImg .smallImg6:hover,.headerImg .allImg .smallImg7:hover,.headerImg .allImg .smallImg8:hover{
-	position: absolute;
-	-webkit-transition: all .3s;
-	-webkit-animation: bounce 1s;
-	animation: bounce 1s;
-}
+    65% {
 
-@keyframes bounce {
-  from,
-  20%,
-  53%,
-  80%,
-  to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 30px, 0);
+    }
+
+    100% {
+
+      transform: translate3d(0, 0px, 0);
+    }
   }
 
-  40%,
-  43% {
-    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    -webkit-transform: translate3d(0, -30px, 0);
-    transform: translate3d(0, -30px, 0);
+  @keyframes breathing {
+    0% {
+
+
+      transform: translate3d(0, 0px, 0);
+    }
+
+
+    65% {
+
+      transform: translate3d(0, -30px, 0);
+    }
+
+    100% {
+
+      transform: translate3d(0, 0px, 0);
+    }
   }
 
-  70% {
-    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    -webkit-transform: translate3d(0, -15px, 0);
-    transform: translate3d(0, -15px, 0);
-  }
-
-  90% {
-    -webkit-transform: translate3d(0, -4px, 0);
-    transform: translate3d(0, -4px, 0);
-  }
-}
-
-.bounce {
-  -webkit-animation-name: bounce;
-  animation-name: bounce;
-  -webkit-transform-origin: center bottom;
-  transform-origin: center bottom;
-}
