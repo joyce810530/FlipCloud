@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Noto Sans CJK TC;
+        }
+        .firstSection {
+            margin-bottom: 0px !important;
+            position: relative;
+            padding: 0;
+            border: 1px solid #e5e8ed;
+            border-radius: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(3, 27, 78, .06);
+            margin: 0px;
+        }
+
+        .firstSection .firstSectionImg img {
+            width: 300px;
+            height: 300px;
+            position: relative;
+            border: 1px solid #e5e8ed;
+            border-radius: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(3, 27, 78, .06);
+            margin: 50px;
+            padding: 0;
+            z-index: 2;
+        }
+
+        .upperFrame {
+            background-image: linear-gradient(to right, #2cb5e8, #29e1d2);
+            z-index: 1;
+            position: absolute;
+            width: 100%;
+            top: 0px;
+            position: absolute;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            height: 150px;
+        }
+
+        .upperFrameTitle {
+            position: absolute;
+            left: 400px;
+            top: 50px;
+            font-size: 36px;
+            font-weight: 400;
+            color: #fff;
+        }
+
+        .upperFrameText {
+            position: absolute;
+            left: 400px;
+            top: 60%;
+            font-size: 24px;
+            font-weight: 400;
+            color: #fff;
+        }
+
+        .lowerFrameTitle {
+            position: absolute;
+            left: 400px;
+            top: 40%;
+            font-size: 18px;
+            font-weight: 300;
+            color: #000;
+        }
+
+        .lowerFrameText {
+            position: absolute;
+            left: 400px;
+            top: 48%;
+            font-size: 18px;
+            font-weight: 300;
+            color: #000;
+        }
+
+        button {
+            position: absolute;
+            left: 400px;
+            top: 72%;
+            background-image: linear-gradient(to right, #2cb5e8, #29e1d2);
+            border: none;
+            border-radius: 25px;
+            padding: 6px 25px;
+            color: #fff;
+            font-size: 20px;
+            font-weight: 300;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="firstSection">
+        <div class="firstSectionImg">
+            <img src="https://s3-ap-southeast-1.amazonaws.com/flipcloud/tw/wp-content/uploads/2018/06/21182745/FlipTool_01.png"
+                alt="" width="300" height="300" class="alignnone size-full wp-image-1978" />
+        </div>
+        <div class="upperFrame">
+            <div class="upperFrameDad">
+                <div class="upperFrameTitle">
+                    FlipCode 線上版
+                </div>
+                <div class="upperFrameText">
+                    磚塊式程式編輯器
+                </div>
+            </div>
+        </div>
+        <div class="lowerFrame">
+            <div class="lowerFrameDad">
+                <div class="lowerFrameTitle">
+                    正式開始學習程式邏輯的磚塊式程式編輯工具，以Arduino為基礎，嚴謹卻簡單的C語言架構，可以直接儲存給機器人進行運動，可以進行演算邏輯的各種專題學習。
+                </div>
+                <div class="lowerFrameText">
+                    支持OSX系統/支持Win7 及以上</br>
+                    配合硬體：E300, E301
+                </div>
+            </div>
+            <button>開始使用</button>
+        </div>
+    </div>
+</body>
+
+</html>
