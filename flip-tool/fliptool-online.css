@@ -1,0 +1,344 @@
+#content{
+	background-color:#f3f5f9;
+}
+
+/*第一區塊扛棒*/
+.firstSection{
+	margin-bottom:0px !important;
+	position: relative;
+	padding: 0;
+	border: 1px solid #e5e8ed;
+	border-radius: 20px;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(3,27,78,.06);
+	margin:0px;
+}
+
+.firstSection .firstSectionImg img{
+	width:300px;
+	height:300px;
+	position: relative;
+	border: 1px solid #e5e8ed;
+	border-radius: 20px;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(3,27,78,.06);
+	margin:50px;
+	padding:0;
+	z-index:2;
+}
+
+.upperFrame{
+	background-image: linear-gradient(to right, #2cb5e8, #29e1d2);
+	z-index:1;
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	position:absolute;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	height:150px;
+}
+
+.upperFrameTitle{
+	position:absolute;
+	left:400px;
+	top:50px;
+	font-size:36px;
+	font-weight:400;
+	color:#fff;
+}
+
+.upperFrameText{
+	position:absolute;
+	left:400px;
+	top:60%;
+	font-size:24px;
+	font-weight:400;
+	color:#fff;
+}
+
+.lowerFrameTitle{
+	position:absolute;
+	left:400px;
+	top:40%;
+	font-size:18px;
+	line-height:28px;
+	font-weight:300;
+	color:#333;
+	margin-right:50px;
+}
+
+.lowerFrameText{
+	position:absolute;
+	left:400px;
+	top:55%;
+	font-size:18px;
+	line-height:28px;
+	font-weight:300;
+	color:#333;
+	margin-right:50px;
+}
+
+.lowerFrame p button{
+	position:absolute;
+	left:400px;
+	top:72%;
+	background-image: linear-gradient(to right, #2cb5e8, #29e1d2);
+	border-image:linear-gradient(to right, #2cb5e8, #29e1d2);
+	border:solid;
+	border-width:1px;
+	border-radius:25px;
+	padding:4px 25px;
+	color:#fff;
+	font-size:20px;
+	font-weight:300;
+transition: all .4s ease;
+}
+
+.lowerFrame p button:hover{
+	position:absolute;
+	left:400px;
+	top:72%;
+	background-image: linear-gradient(to right, #fff, #fff);
+	border-image:linear-gradient(to right, #2cb5e8, #29e1d2);
+	border:solid;
+	border-width:1px;
+	border-radius:25px;
+	padding:4px 25px;
+	color:#2cb5e8;
+	font-size:20px;
+	font-weight:300;
+}
+
+
+
+
+
+/*第一區塊扛棒*/
+@media screen and (max-width: 700px){
+    .firstSection{
+        height:750px;
+    }
+    .upperFrameTitle{
+        left:50px;
+
+    }
+    
+    .upperFrameText{
+        left:50px;
+        top:90px;
+        
+    }
+    
+    .firstSection .firstSectionImg img{
+        margin-top:170px;
+    }
+    
+    .upperFrame{
+        height:260px;
+    }
+    
+    .lowerFrameTitle{
+        left:50px;
+        top:500px;
+
+    }
+    
+    .lowerFrameText{
+        left:50px;
+        top:620px;
+        
+    }
+    
+    .lowerFrame{
+
+    }
+    
+    .lowerFrame p button{
+        top:680px;
+        left:50px;
+    }
+}
+
+
+
+
+
+
+
+/*第二區塊不含TAB*/
+.secondSection{
+    margin-top:20px;
+    margin-bottom:80px;
+}
+
+
+.introSection{
+	margin-bottom:8px;
+	position: relative;
+	padding: 0;
+	border: 1px solid #e5e8ed;
+	border-radius: 20px;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(3,27,78,.06);
+}
+
+.introSectionWrap{
+	margin:32px;
+}
+
+.introSectionTitle{
+	font-size: 24px;
+	font-weight: 400;
+	color: #23b6bc;
+}
+
+.introSectionText{
+	margin-top:20px;
+}
+
+
+
+
+
+/*第二層TAB*/
+/*正常排列*/
+.fusion-text .with-nav-tabs .panel-heading{
+background-color:transparent;
+border-style:none;
+}
+
+.panel-body .tab-pane p{
+	display:block;
+}
+
+/*消除預設怪東西*/
+.toolContainer .tab-pane .with-nav-tabs{
+	box-shadow:none;
+	border:none;
+}
+
+/*消除預設怪東西*/
+.with-nav-tabs .panel-heading ul{
+	padding:0px;
+}
+
+/*消除預設怪東西*/
+.fusion-text .with-nav-tabs .panel-heading{
+	padding:0px;
+}
+
+/*Active Tab*/
+.tabButton:hover{
+	background-color:#23b6bc;
+	border:solid;
+	border-width:1px;
+	border-color:#23b6bc;
+	border-radius:25px;
+        color: white;
+}
+
+/*Tab*/
+.tabButton{
+	background-color:transparent;
+	border: solid;
+    border-width: 1px;
+    border-color: #23b6bc;
+    border-radius: 25px;
+    line-height: 45px;
+    width: 25%;
+outline: none;
+}
+
+
+
+
+
+/*第二步驟燒錄韌體*/
+.toolContainer .tab-pane .bburn{
+	display:flex;
+	margin-top:20px;
+	height:55px;
+}
+
+#boardSelect{
+	border-radius:5px;
+}
+
+#portSelect{
+	border-radius:5px;
+}
+
+#burnBtn{
+	border-radius:5px;	
+}
+
+
+
+
+/*第三步*/
+.toolContainer .tab-pane .introSectionBtn{
+
+}
+
+.toolContainer .introSectionBtn button{
+	background-color:transparent;
+	border:solid;
+	border-width:1px;
+	border-color:#23b6bc;
+	border-radius:25px;
+	padding:4px 25px;
+	color:#23b6bc;
+	font-size:20px;
+	font-weight:300;
+transition: all .4s ease;
+margin-top:20px;
+margin-right:15px;
+}
+
+.toolContainer .introSectionBtn button:hover{
+	background-color:#23b6bc;
+	border:solid;
+	border-width:1px;
+	border-color:#23b6bc;
+	border-radius:25px;
+	padding:4px 25px;
+	color:#fff;
+	font-size:20px;
+	font-weight:300;
+}
+
+
+
+
+
+
+#main .post-content{
+	max-width: 100%;
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+}
+#main .post-content .one1{
+	max-width: 100%;
+	padding-left: 250px!important;
+	padding-right: 250px!important;
+}
+@media (max-width:1280px){
+
+	#main .post-content .one1{
+		padding-left: 60px!important;
+		padding-right: 60px!important;
+	}
+	
+	
+}
+
+@media (max-width:1024px){
+
+	#main .post-content .one1{
+		padding-left: 15px!important;
+		padding-right: 15px!important;
+	}
+	
+	
+}
