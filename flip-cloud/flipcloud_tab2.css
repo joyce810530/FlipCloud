@@ -1,0 +1,291 @@
+.nofuck .bigtitle p{
+	color:#ffffff;
+	margin-top:0px;
+	margin-bottom:0px;
+	font-size:30px !important;
+	font-weight:400;
+}
+
+.nofuck .smalltitle p{
+	color:#ffffff;
+	margin-top:0px;
+	margin-bottom:0px;
+	font-size:16px !important;
+	font-weight:300;
+	font-style:italic;
+}
+
+
+.nofuck .level-img00{
+    max-height:100%;
+    position:absolute;
+}
+
+.nofuck .level-img01{
+    width:auto;
+    height:10%;
+    position:absolute;
+    left:100px;
+}
+
+
+
+
+
+/*主視覺標題*/
+.thefuck p span{
+	font-weight: 400 !important;
+ 	text-shadow: 0.1em 0.1em 0.6em black
+}
+
+/*滿版*/
+#content .hentry .post-content{
+	padding-left:0px !important;
+	padding-right:0px !important;
+	margin-top:0px;
+}
+#main .post-content .fuck1{
+	max-width: 100%;
+	padding-left: 250px!important;
+	padding-right: 250px!important;
+}
+@media (max-width:1280px){
+
+	#main .post-content .fuck1{
+		padding-left: 60px!important;
+		padding-right: 60px!important;
+	}
+
+
+}
+
+@media (max-width:1024px){
+
+	#main .post-content .fuck1{
+		padding-left: 15px!important;
+		padding-right: 15px!important;
+	}
+
+
+}
+
+
+
+
+/*Tab外型*/
+.fusion_builder_column .fusion-column-wrapper .horizontal-tabs .nav .nav-justified li .tab-link{
+	background-color:#ffffff !important;
+	border-bottom-color:#26b6bc !important;
+
+}
+
+/*Tab Border*/
+.fusion_builder_column .fusion-column-wrapper .horizontal-tabs .nav .nav-justified li .tab-link{
+	border-width:0px !important;
+}
+
+.fusion-row .fusion_builder_column .fusion-column-wrapper .horizontal-tabs .nav .nav-justified li .tab-link{
+	border-bottom-width:1px !important;
+	padding-top:30px !important;
+	padding-bottom:30px !important;
+
+}
+
+/*Tab Margin*/
+.post-content .fullwidth-box .fusion-row .fusion_builder_column .fusion-column-wrapper .horizontal-tabs .nav .nav-justified {
+	margin-top:40px!important;
+	margin-bottom:25px!important;
+}
+
+/*Tab Line Active*/
+#content .hentry .post-content .fullwidth-box .fusion-row .fusion_builder_column .fusion-column-wrapper .horizontal-tabs .nav .nav-justified .active .tab-link{
+	padding-bottom:26px !important;
+	border-bottom-width:5px !important;
+}
+
+/*第二層Tab*/
+.fusion-column-wrapper .horizontal-tabs .tab-content .tab-pane .tg-grid-wrapper .tg-grid-area-top1 .tg-filters-holder .tg-filter span{
+	min-width:130px;
+	height:50px !important;
+}
+
+/*第二層Tab字級*/
+.tab-pane .tg-grid-wrapper .tg-grid-area-top1 .tg-filters-holder .tg-filter span{
+	font-size:16px !important;
+	font-weight:400;
+}
+
+
+/*Level Title*/
+.horizontal-tabs .tab-pane .up{
+	margin-bottom:10px;
+	font-weight: 500!important;
+}
+
+/*Level Content*/
+.horizontal-tabs .tab-pane .down{
+	margin-bottom:40px;
+	color:#999999!important;
+}
+
+/*Tab字級*/
+.post-content h4{
+	font-size:18px!important;
+}
+
+/*Skin背景*/
+.horizontal-tabs .tg-item .tg-item-content-holder{
+	background-color:#f3f5f9 !important;
+}
+
+
+
+/*
+Skin標題
+.horizontal-tabs .Read a{
+	font-weight:500;
+	font-size:28px !important;
+	color:#000000 !important;
+}
+*/
+
+/*Skin Border Radius*/
+.tg-grid-holder .tg-item .tg-item-content-holder{
+	border-bottom-right-radius:20px;
+	border-bottom-left-radius:20px;
+}
+
+.tg-grid-holder .tg-item .tg-item-inner{
+	border-top-right-radius:20px;
+	border-top-left-radius:20px;
+}
+
+.tg-grid-holder .tg-item .tg-item-overlay{
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+}
+
+.tg-grid-holder .tg-item .tg-item-media-content{
+	border-top-left-radius:20px!important;
+	border-top-right-radius:20px!important;
+}
+
+/*Skin的圖片*/
+.tg-item .tg-light div{
+	border-top-left-radius:20px!important;
+	border-top-right-radius:20px!important;
+}
+
+/*tab背景色*/
+.fusion_builder_column .fusion-column-wrapper .horizontal-tabs .nav .nav-justified li .tab-link, #grid-1326 .tg-grid-area-top1{
+background-color:#f3f5f9!important;
+}
+
+/*課程介紹的fuck7方塊*/
+.horizontal-tabs .tab-pane .sabai-entity-bundle-name-questions{
+	margin-bottom:5px !important;
+	position: relative;
+	padding: 36px;
+	border: 1px solid #e5e8ed;
+	border-radius: 20px;
+	background-color: #ffffff;
+	transition: box-shadow .25s!important;
+	z-index: 2;
+	font-size:20px!important;
+}
+
+/*課程介紹的Level*/
+.sabai-questions-questions .sabai-entity-bundle-name-questions .sabai-row{
+	font-weight:300!important;
+	color:#333333;
+}
+
+/*課程介紹的分類標題*/
+.horizontal-tabs .tab-pane .sabai-entity-bundle-name-questions .sabai-row.fuckyi{
+	font-size:20px!important;
+	font-weight:400!important;
+	color:#23b6bc!important;
+}
+
+/*課程介紹的方塊*/
+.horizontal-tabs .tab-pane .sabai-questions-questions{
+	margin-top:30px;
+	margin-bottom:80px;
+}
+
+/*課程介紹的Level文字*/
+.sabai-row{
+	font-size:18px!important;
+	line-height:18px;
+	text-align:center;
+}
+
+
+/*課程介紹的Level1~5*/
+.sabai-questions-questions .sabai-questions-side .sabai-questions-title{
+	position:relative;
+	top:35px;
+}
+
+/*前往課程button*/
+.btn{
+	color:#fff;
+	background-color:#23b6bc;
+	border-radius:20px;
+	font-size:18px;
+	padding-left:10px;
+	padding-right:10px;
+	width:110px;
+}
+
+.btn:hover{
+	color:#23b6bc;
+	background-color:#fff;
+	border-color:#23b6bc;
+	border-size:1px;
+	border-radius:20px;
+	font-size:18px;
+	padding-left:10px;
+	padding-right:10px;
+	width:110px;
+}
+
+/*包住前往課程button*/
+.sabai-questions-title-btn{
+    text-align:center;
+    padding-top:25px;
+}
+
+.horizontal-tabs .tab-pane .sabai-entity-bundle-name-questions .sabai-row.fuckyi {
+    margin-bottom: 20px;
+}
+
+.horizontal-tabs .tab-pane .sabai-entity-bundle-name-questions {
+   padding-bottom: 0px !important;
+}
+
+
+.cloudBtn:hover{
+	background-color:#23b6bc;
+	color:#fff;
+}
+
+
+
+
+
+
+
+
+/*Tab2 方塊外觀*/
+.horizontal-tabs .tab-pane .contentSectionText{
+	margin-bottom:5px !important;
+	position: relative;
+	padding: 32px;
+	border: 1px solid #e5e8ed;
+	border-radius: 20px;
+	background-color: #ffffff;
+	transition: box-shadow .25s!important;
+	z-index: 2;
+	font-size:20px!important;
+}
