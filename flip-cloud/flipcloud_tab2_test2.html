@@ -10,20 +10,24 @@
     </div>
     <div id="menu1" class="tab-pane fade">
         <div class="row">
-            <div class="courseIntroSeciton">
-                <div class="courseIntroSecitonText">
-                    <p>FlipRobot 由課程設計出發，發展出完整的 STEAM 素養學習架構，清楚的讓學生透過機器人專題學習 21 世紀的關鍵能力，並培養 STEAM 核心競爭力。</p>
+            <div class="courseFirstSeciton">
+                <div class="courseFirstSecitonText">
+                    <p class="courseFirstSecitonTextTitle">透過課程設計落實STEAM</p>
+                    <p class="courseFirstSecitonTextContent">STEAM是提升孩子具備21世紀關鍵競爭力重要的素養能力，是一種融合素養能力的課程設計方式，透過這樣的課程設計，學生學習知識的方式將有別於傳統，可以更具理解性、啓發性，也更具批判性思考與創造性。而STEAM的課程設計，必須要串接多種學習科目，因此透過機器人專題，透過機構、動力、控制、互動、智能的機器人科目，STEAM素養的學習將被全面性的完整落實，而這就是璞學智慧重視的課題。</p>
+                    <button class="courseFirstSecitonBtn">STEAM</button>
+                    <button class="courseFirstSecitonBtn">21世紀關鍵競爭力</button>
+                    <button class="courseFirstSecitonBtn">PBL</button>
                 </div>
-                <div class="courseIntroSecitonImg"><img class="alignnone size-large wp-image-2725" src="https://s3-ap-southeast-1.amazonaws.com/flipcloud/tw/wp-content/uploads/2018/08/21113109/IMG_6392-1-1-1024x683.jpg"
+                <div class="courseIntroSecitonImg1"><img class="alignnone size-large wp-image-2725" src="https://s3-ap-southeast-1.amazonaws.com/flipcloud/tw/wp-content/uploads/2018/08/16152943/Complete-STEAM-learning-architecture-1024x789.png"
                         alt="" width="480" />
                 </div>
             </div>
-            <div class="courseIntroSeciton">
-                <div class="courseIntroSecitonImg">
+            <div class="courseSecondSeciton">
+                <div class="courseSecondSecitonImg2">
                     <img class="alignnone size-large wp-image-2725" src="https://s3-ap-southeast-1.amazonaws.com/flipcloud/tw/wp-content/uploads/2018/06/08151719/%E4%BA%94%E5%80%8B%E9%9A%8E%E6%AE%B5-061.png"
                         alt="" width="480" />
                 </div>
-                <div class="courseIntroSecitonSheet">
+                <div class="courseSecondSecitonSheet">
                     <div class="sabai-questions-questions sabai-col-md-12">
                         <div class="sabai-entity sabai-entity-type-content sabai-entity-bundle-name-questions sabai-entity-bundle-type-questions sabai-entity-mode-summary sabai-questions-novotes sabai-clearfix">
                             <div class="sabai-row fuckyi">
@@ -40,9 +44,7 @@
                                     <div class="sabai-questions-title">LEVEL 1</div>
                                 </div>
                                 <div class="sabai-col-xs-4 sabai-questions-main">
-                                    <div class="sabai-questions-title">
-                                        <p>STEAM Enlightenment 啟蒙</p>
-                                    </div>
+                                    <div class="sabai-questions-title">STEAM Enlightenment 啟蒙</div>
                                 </div>
                                 <div class="sabai-col-xs-2 sabai-questions-main">
                                     <div class="sabai-questions-title">
@@ -73,9 +75,7 @@
                                     <div class="sabai-questions-title">LEVEL 2</div>
                                 </div>
                                 <div class="sabai-col-xs-4 sabai-questions-main">
-                                    <div class="sabai-questions-title">
-                                        <p>STEAM Cognition 識用</p>
-                                    </div>
+                                    <div class="sabai-questions-title">STEAM Cognition 識用</div>
                                 </div>
                                 <div class="sabai-col-xs-2 sabai-questions-main">
                                     <div class="sabai-questions-title">
@@ -106,9 +106,7 @@
                                     <div class="sabai-questions-title">LEVEL 3</div>
                                 </div>
                                 <div class="sabai-col-xs-4 sabai-questions-main">
-                                    <div class="sabai-questions-title">
-                                        <p>STEAM Ability 學用</p>
-                                    </div>
+                                    <div class="sabai-questions-title">STEAM Ability 學用</div>
                                 </div>
                                 <div class="sabai-col-xs-2 sabai-questions-main">
                                     <div class="sabai-questions-title">
@@ -139,9 +137,7 @@
                                     <div class="sabai-questions-title">LEVEL 4</div>
                                 </div>
                                 <div class="sabai-col-xs-4 sabai-questions-main">
-                                    <div class="sabai-questions-title">
-                                        <p>STEAM roficiency 善用</p>
-                                    </div>
+                                    <div class="sabai-questions-title">STEAM roficiency 善用</div>
                                 </div>
                                 <div class="sabai-col-xs-2 sabai-questions-main">
                                     <div class="sabai-questions-title">
@@ -172,9 +168,7 @@
                                     <div class="sabai-questions-title">LEVEL 5</div>
                                 </div>
                                 <div class="sabai-col-xs-4 sabai-questions-main">
-                                    <div class="sabai-questions-title">
-                                        <p>STEAM Mastery 活用</p>
-                                    </div>
+                                    <div class="sabai-questions-title">STEAM Mastery 活用</div>
                                 </div>
                                 <div class="sabai-col-xs-2 sabai-questions-main">
                                     <div class="sabai-questions-title">
@@ -205,3 +199,19 @@
         </div>
     </div>
 </div>
+<script>
+    var toggleNode = document.querySelector('.toggle');
+
+    toggleNode.addEventListener("click", toggleFunc);
+
+
+    function toggleFunc(E) {
+        var newClassName = "box-wrap box-close"
+        E.preventDefault();
+        box = document.querySelector('.box-wrap');
+        if (box.className.match(/box-close/)) {
+            newClassName = "box-wrap box-open";
+        }
+        box.className = newClassName;
+    }
+</script>
