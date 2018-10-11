@@ -31,8 +31,8 @@
                     <div class="sabai-questions-questions sabai-col-md-12">
                         <div class="sabai-entity sabai-entity-type-content sabai-entity-bundle-name-questions sabai-entity-bundle-type-questions sabai-entity-mode-summary sabai-questions-novotes sabai-clearfix">
                             <div class="sabai-row fuckyi">
-                                <div class="sabai-col-xs-2 t-a">學齡級數</div>
-                                <div class="sabai-col-xs-4 t-a">級數核心</div>
+                                <div class="sabai-col-xs-2 t-a1">學齡級數</div>
+                                <div class="sabai-col-xs-4 t-a1">級數核心</div>
                                 <div class="sabai-col-xs-2 t-a1">建議學齡</div>
                                 <div class="sabai-col-xs-2 t-a1">學程代碼</div>
                                 <div class="sabai-col-xs-2 t-a1">學程主題</div>
@@ -196,22 +196,9 @@
                     </div>
                 </div>
             </div>
+            <div class="courseThirdSection" style="margin-bottom:60px;">
+
+            </div>
         </div>
     </div>
 </div>
-<script>
-    var toggleNode = document.querySelector('.toggle');
-
-    toggleNode.addEventListener("click", toggleFunc);
-
-
-    function toggleFunc(E) {
-        var newClassName = "box-wrap box-close"
-        E.preventDefault();
-        box = document.querySelector('.box-wrap');
-        if (box.className.match(/box-close/)) {
-            newClassName = "box-wrap box-open";
-        }
-        box.className = newClassName;
-    }
-</script>
