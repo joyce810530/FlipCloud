@@ -1,0 +1,34 @@
+<body>
+    <div class="box-wrap box-open">
+        <div style="margin-bottom: 20px;">
+            <div class="toggle">
+                Sheet Close
+            </div>
+        </div>
+        <div class="box">
+            Sheet Open
+            Sheet Open
+            Sheet Open
+        </div>
+    </div>
+    <script>
+        var toggleNode = document.querySelector('.toggle');
+
+        toggleNode.addEventListener("click", toggleFunc);
+
+
+        function toggleFunc(E) {
+            var newClassName = "box-wrap box-close"
+            E.preventDefault();
+            box = document.querySelector('.box-wrap');
+            if (box.className.match(/box-close/)) {
+                newClassName = "box-wrap box-open";
+            }
+            box.className = newClassName;
+        }
+    </script>
+
+
+
+
+</body>
