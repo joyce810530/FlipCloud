@@ -1,0 +1,344 @@
+#content{
+	background-color:#f3f5f9;
+}
+
+/*神秘的空白*/
+#title{
+	margin-top:0px;
+}
+
+/*為了覆蓋掉神秘的白背景*/
+.toolContainer > .tab-content{
+	background-color:#f3f5f9;
+}
+
+/*為了覆蓋掉神秘的白色塊*/
+.nav-justified, .nav-tabs.nav-justified {
+    margin-top: -10px;
+}
+
+/*為了覆蓋掉神秘的白色塊*/
+.nav-justified, .nav-tabs.nav-justified {
+	background-color:#f3f5f9;
+}
+
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #fff;
+    border:none;
+margin-top:30px;
+}
+
+/*TAB-2不要的邊框*/
+.panel{
+border:none;
+box-shadow:none;
+}
+
+/*TAB-2與上面的空格*/
+.panel-heading {
+    padding: 20px 0px 0px 0px;
+}
+
+
+
+
+.firstSection{
+	margin-bottom:0px !important;
+	position: relative;
+	padding: 0;
+	background-color: #f3f5f9;
+	margin:0px;
+}
+
+.firstSection .firstSectionImg img{
+	width:200px;
+	height:200px;
+	position: relative;
+	border: 1px solid #e5e8ed;
+	border-radius: 45px;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(3,27,78,.06);
+	margin:50px 0px 50px 0px;
+	padding:0;
+	z-index:2;
+}
+
+.upperFrame{
+	background-color:#f3f5f9;
+	z-index:1;
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	position:absolute;
+	height:100px;
+}
+
+.upperFrameTitle{
+	position:absolute;
+	left:300px;
+	top:50px;
+	font-size:22px;
+	font-weight:600;
+	color:#282828;
+}
+
+.upperFrameText{
+	position:absolute;
+	left:300px;
+	top:60%;
+	font-size:15px;
+	font-weight:400;
+	color:#282828;
+}
+
+.lowerFrameTitle{
+	position:absolute;
+	left:300px;
+	top:35%;
+	font-size:14px;
+	font-weight:300;
+	color:#313b3d;
+	text-align:justify;
+line-height: 25px;
+}
+
+.lowerFrameText{
+	position:absolute;
+	left:300px;
+	top:55%;
+	font-size:18px;
+	line-height:28px;
+	font-weight:300;
+	color:#333;
+	margin-right:50px;
+}
+
+
+
+/*第二區塊白色樣式*/
+.introSection{
+	margin-bottom:8px;
+	position: relative;
+	padding: 0;
+	border: 1px solid #e5e8ed;
+	border-radius: 20px;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(3,27,78,.06);
+        margin-top: 30px;
+}
+
+.introSectionWrap{
+	margin:32px;
+}
+
+
+
+/*TAB-1*/
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    background-color: #23b6bc;
+}
+
+.nav-justified>li>a, .nav-tabs.nav-justified>li>a {
+color:#23b6bc;
+}
+
+/*TAB-2*/
+.nav-pills>li>a{
+color:#23b6bc;
+}
+
+
+
+
+
+/*步驟大標*/
+.introSectionTitle{
+	font-size:22px;
+	font-weight:600;
+	color:#282828;
+}
+
+/*步驟內文*/
+.introSectionText{
+      margin-top:10px;
+      line-height: 25px;
+}
+
+
+
+/*第二步驟燒錄韌體*/
+.toolContainer .tab-pane .bburn{
+	display:flex;
+	margin-top:20px;
+	height:55px;
+}
+
+#boardSelect{
+	border-radius:5px;
+    height: 50px;
+    border: 1px solid #23b6bc;
+    margin-right: 5px;
+}
+
+#portSelect{
+	border-radius:5px;
+    height: 50px;
+    border: 1px solid #23b6bc;
+    margin-right: 3px;
+}
+
+#burnBtn{
+	border-radius:5px;	
+    margin: 0px;
+    height: 50px;
+    background-color:#23b6bc;
+}
+
+#burnBtn:hover{
+    background-color:#23b6bc;
+    opacity: .8;
+    color:#fff;
+}
+
+
+
+
+
+
+
+
+
+.introSectionExtraHeight{
+	margin-bottom:8px;
+	position: relative;
+	padding: 0;
+	border: 1px solid #e5e8ed;
+	border-radius: 20px;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(3,27,78,.06);
+        margin-top: 30px;
+margin-bottom:100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 400px){
+
+	.upperFrame{
+	    height:300px;
+	}
+	
+	.firstSection .firstSectionImg img {
+    width: 310px;
+    height: 310px;
+    margin: 10px 0px 50px 0px;	    
+	}
+	
+	.upperFrameTitle {
+    position: absolute;
+    left: 0px;
+    top: 330px;	    
+	}
+	
+	.upperFrameText {
+    position: absolute;
+    left: 0px;
+    top: 335px;
+    display: none;	    
+	}
+	
+	.lowerFrameTitle {
+    position: absolute;
+    left: 0px;
+    top: 400px;
+    display: none;	    
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.firstSection .lowerFrame .flipcodeBtn{
+    left: 300px;
+    top: 210px;
+    background-color: #23b6bc;
+    border: 1px solid #23b6bc;
+    border-radius: 25px;
+    padding: 5px 16px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    transition: all .4s ease;
+    position: absolute;
+}
+
+.firstSection .lowerFrame .flipcodeBtn:hover{
+    background-color: #f3f5f9;
+}
+
+.lowerFrame a{
+	color:#ffffff!important;
+}
+
+.lowerFrame a:hover{
+	color:#23b6bc!important;
+}
+
+.introSectionBtn .flipcodeBtn{
+	background-color: #23b6bc;
+	margin-top:15px;
+	margin-right:5px;
+	transition: all .4s ease;
+	font-size: 16px;
+	color: #fff;
+	padding: 6px 16px;
+	border-radius: 25px;
+	border: 1px solid #23b6bc;
+}
+
+.introSectionBtn .flipcodeBtn:hover{
+	background-color: #ffffff;
+}
+
+.introSectionBtn .flipcodeBtn a{
+	color:#ffffff;
+}
+
+.introSectionBtn .flipcodeBtn a:hover{
+	color:#23b6bc;
+}
