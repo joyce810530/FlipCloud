@@ -218,7 +218,7 @@ color:#23b6bc;
 	background-color: #fff;
 	box-shadow: 0 2px 4px rgba(3,27,78,.06);
         margin-top: 30px;
-margin-bottom:100px;
+margin-bottom:200px;
 }
 
 
@@ -293,7 +293,7 @@ margin-bottom:100px;
 
 
 
-.firstSection .lowerFrame .flipcodeBtn{
+.lowerFrame a .flipcodeBtn{
     left: 300px;
     top: 210px;
     background-color: #23b6bc;
@@ -307,16 +307,36 @@ margin-bottom:100px;
     position: absolute;
 }
 
-.firstSection .lowerFrame .flipcodeBtn:hover{
+.lowerFrame a .flipcodeBtn:hover{
     background-color: #f3f5f9;
+    color: #23b6bc;
 }
 
+/*
 .lowerFrame a{
 	color:#ffffff!important;
 }
 
 .lowerFrame a:hover{
 	color:#23b6bc!important;
+}
+*/
+
+.toolContainer .secondSection .flipcodeBtn{
+	background-color: #23b6bc;
+	margin-top:15px;
+	margin-right:5px;
+	transition: all .4s ease;
+	font-size: 16px;
+	color: #fff;
+	padding: 6px 16px;
+	border-radius: 25px;
+	border: 1px solid #23b6bc;
+}
+
+.toolContainer .secondSection .flipcodeBtn:hover{
+	background-color: #ffffff;
+	color: #23b6bc;
 }
 
 .introSectionBtn .flipcodeBtn{
@@ -333,12 +353,27 @@ margin-bottom:100px;
 
 .introSectionBtn .flipcodeBtn:hover{
 	background-color: #ffffff;
+	color: #23b6bc;
 }
 
-.introSectionBtn .flipcodeBtn a{
-	color:#ffffff;
-}
 
-.introSectionBtn .flipcodeBtn a:hover{
-	color:#23b6bc;
-}
+
+/*iOS輔助圖片
+.imgInfo{
+    align-items: center;
+    display: inline-grid;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
